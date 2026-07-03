@@ -90,9 +90,10 @@ a binary message appears;
 what's crossed out and left uncrossed
 represents ones and zeros not predetermined;
 this one-time message can be anything you make it whenever you make it, even though it comes from something old and unchangeable.
-And so you make this message represent personal thoughts for this event,
-along with the hash of that new list
-(so as to build an authorized-only relationship with that new list.)
+And so you make this message represent (a hash of) the new list,
+and your personal thoughts for this event.
+This builds an authorized-only relationship with that new list.
+A relationship anyone can verify.
 
 <br>
 
