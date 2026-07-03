@@ -52,8 +52,7 @@ your Authorship number is a simple and accessible
 door to authentication you can later jump from
 to other such systems that have vital features.
 
-**256 keys as 256 1-bits of a hash? But aren't hashes random?**
-
+256 keys as 256 1-bits of a hash? But aren't hashes random?
 512-bit hashes occasionally have 256 1-bits and 256 0-bits.
 But you can modify or append to the input file,
 until its hash IS evenly bit-distributed.
@@ -63,7 +62,7 @@ https://github.com/compromise-evident/authorship/blob/main/docs/the_public_file_
 https://github.com/compromise-evident/authorship/blob/main/docs/see_bits_and_bit_occurrence_of_a_hash.cpp
 
 
-**The wrong way**
+The wrong way
 
 Let's say you published a list of encrypted items
 then became a target for exposing war crimes.
@@ -79,7 +78,7 @@ How would you have ensured that only you can make your lists point?
 And how would you have ensured that this pointing is publicly verifiable?
 Authorship does just that;
 
-**The right way**
+The right way
 
 Again, you published a list of encrypted items
 then became a target for exposing war crimes.
