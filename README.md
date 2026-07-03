@@ -86,12 +86,11 @@ make a NEW list of encrypted items, then selectively release half the keys to th
 And now, as I look at your original list of encrypted items,
 I cross out any that I can decrypt, using the keys you released.
 When I take a step back,
-a binary message appears;
+binary data appears;
 what's crossed out and left uncrossed
 represents ones and zeros not predetermined;
-this one-time message can be anything you make it whenever you make it, even though it comes from something old and unchangeable.
-And so you make this message represent (a hash of) the new list,
-and your personal thoughts for this event.
+this one-time data can be anything you make it whenever you make it, even though it comes from something old and unchangeable.
+And so you make it represent your new list and personal message.
 This builds an authorized-only relationship with that new list.
 A relationship anyone can verify.
 
