@@ -59,7 +59,7 @@ until its hash IS evenly bit-distributed.
 
 https://github.com/compromise-evident/authorship/blob/main/docs/the_public_file_is_6_lines_of_text
 
-https://github.com/compromise-evident/authorship/blob/main/docs/see_bits_and_bit_occurrence_of_a_hash.cpp
+https://github.com/compromise-evident/what-not/blob/main/see_bits_and_bit_occurrence_of_a_hash.cpp
 
 
 The wrong way
