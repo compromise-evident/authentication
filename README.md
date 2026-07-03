@@ -76,7 +76,6 @@ How would you have forced that original list to symbolically point to
 your NEW list that's not pregenerated to finiteness?
 How would you have ensured that only you can make your lists point?
 And how would you have ensured that this pointing is publicly verifiable?
-Authorship does just that;
 
 The right way
 
