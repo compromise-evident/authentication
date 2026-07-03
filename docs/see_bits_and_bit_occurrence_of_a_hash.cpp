@@ -5,9 +5,8 @@ char your_hash[] = {"6a74cb02b60a820f33139bd65c17861daf6f0707efcd5e0a03808317be4
 
 
 #include <iostream>
-using namespace std;
 int main()
-{	string bits;
+{	std::string bits;
 	for(long long a = 0; your_hash[a] != '\0'; a++)
 	{	if     (your_hash[a] == '0') {bits += "0000";}
 		else if(your_hash[a] == '1') {bits += "0001";}
@@ -25,7 +24,7 @@ int main()
 		else if(your_hash[a] == 'd') {bits += "1101";}
 		else if(your_hash[a] == 'e') {bits += "1110";}
 		else if(your_hash[a] == 'f') {bits += "1111";}
-		else                         {cout << "\nError: hash contains symbols other than \"0123456789abcdef\".\n"; return 0;}
+		else                         {std::cout << "\nError: hash contains symbols other than \"0123456789abcdef\".\n"; return 0;}
 	}
 	
 	long long zeros = 0, ones = 0;
@@ -34,9 +33,9 @@ int main()
 		else               {ones ++;}
 	}
 	
-	cout << " zero bits: " <<  zeros << "\n"
-	     << "  one bits: " <<  ones  << "\n"
-	     << "total bits: " << (zeros + ones) << "\n\n"
+	std::cout << " zero bits: " <<  zeros << "\n"
+	          << "  one bits: " <<  ones  << "\n"
+	          << "total bits: " << (zeros + ones) << "\n\n"
 	
-	     << "the bits:\n" << bits << "\n";
+	          << "the bits:\n" << bits << "\n";
 }
