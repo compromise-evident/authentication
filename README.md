@@ -51,7 +51,7 @@ your Authorship number is a simple and accessible
 door to authentication you can later jump from
 to other such systems that have vital features.
 
-256 keys as 256 1-bits of a hash? But aren't hashes random?
+256 keys representing 256 1-bits of a hash? But aren't hashes random?
 512-bit hashes occasionally have 256 1-bits and 256 0-bits.
 But you can modify or append to the input file,
 until its hash IS evenly bit-distributed.
