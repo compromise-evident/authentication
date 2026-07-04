@@ -1,3 +1,6 @@
+Version 10.0.0  Uses my rolling-code 6.0.0. Fast, especially verification.
+                2026_07_04
+
 Version 9.0.1   No dependencies for SHA-512 (it's now a 1-liner of raw
                 unoptimized math, that doesn't require any lib).
                 2026_06_12
