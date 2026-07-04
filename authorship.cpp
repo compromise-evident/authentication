@@ -22,11 +22,10 @@ int main()
 	
 	          << "\n\nOption: ";
 	
-	std::string o; std::getline(std::cin, o); int user_option = std::stoi(o);
-	if((user_option != 1) && (user_option != 2) && (user_option != 3)) {std::cout << "\nInvalid.\n"; return 0;}
+	std::string o; std::getline(std::cin, o); if((o != "1") && (o != "2") && (o != "3")) {std::cout << "\nNo such option.\n"; return 0;}
 	
 	//_______________________________________________________Create___________________________________________________//
-	if(user_option == 1)
+	if(o == "1")
 	{	//Exits if files already exists.
 		if(std::filesystem::exists("Personal")) {std::cout << "\n\"Personal\" folder already exists.\n"; in_stream.close(); return 0;}
 		
@@ -89,7 +88,7 @@ int main()
 	}
 	
 	//_______________________________________________________Modify___________________________________________________//
-	if(user_option == 2)
+	if(o == "2")
 	{	//Gets path.
 		std::cout << "\nDrop/enter Personal folder:\n";
 		std::string path; std::getline(std::cin, path); if(path[0] == '\'') {path.erase(0, 1); path.pop_back(); path.pop_back();}
@@ -238,7 +237,7 @@ int main()
 	}
 	
 	//_______________________________________________________Verify___________________________________________________//
-	if(user_option == 3)
+	if(o == "3")
 	{	//Gets path.
 		std::cout << "\nDrop/enter their disposable public file:\n";
 		std::string path; std::getline(std::cin, path); if(path[0] == '\'') {path.erase(0, 1); path.pop_back(); path.pop_back();}
