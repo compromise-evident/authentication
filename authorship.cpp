@@ -98,6 +98,13 @@ int main()
 		std::cout << "\nEnter a personal message of any length, else press enter:\n";
 		std::string message; std::getline(std::cin, message);
 		
+		//Checks message.
+		if(!message.empty())
+		{	for(unsigned long long a = 0; a < message.length(); a++)
+			{	if((message[a] < 32) || (message[a] > 126)) {std::cout << "\nMessage corrupted.\n"; return 0;}
+			}
+		}
+		
 		//Creates paths.
 		std::string path_to_keys                    = (path + "/private/512_keys"               );
 		std::string path_to_ciphertext              = (path + "/private/512_ciphertext"         );
