@@ -22,12 +22,12 @@ int main()
 	
 	          << "\n\nOption: ";
 	
-	std::string o; std::getline(std::cin, o); if((o != "1") && (o != "2") && (o != "3")) {std::cout << "\nNo such option.\n"; return 0;}
+	std::string o; std::getline(std::cin, o); if((o != "1") && (o != "2") && (o != "3")) {std::cout << "\nBad option.\n"; return 0;}
 	
 	//_______________________________________________________Create___________________________________________________//
 	if(o == "1")
 	{	//Exits if files already exists.
-		if(std::filesystem::exists("Personal")) {std::cout << "\n\"Personal\" folder already exists.\n"; in_stream.close(); return 0;}
+		if(std::filesystem::exists("Personal")) {std::cout << "\n\"Personal\" folder already exists.\n"; return 0;}
 		
 		//Generates 512 keys. From rolling-code.cpp.
 		{	//Creates seed file if missing.
@@ -300,7 +300,7 @@ int main()
 		in_stream.open(path_to_number); if(!in_stream) {std::cout << "\nCan't open file for reading. (Compares hash to the number).\n"; return 1;}
 		std::getline(in_stream, file_line);
 		in_stream.close();
-		if(SHA_512_output != file_line) {std::cout << "\nFAILED! That number is not the hash of the ciphertext. Old public file?\n"; in_stream.close(); return 0;}
+		if(SHA_512_output != file_line) {std::cout << "\nFAILED! That number is not the hash of the ciphertext. Old public file?\n"; return 0;}
 		
 		//Takes hash of user message & number.
 		std::string last_3_lines;
