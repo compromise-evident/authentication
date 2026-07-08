@@ -30,20 +30,14 @@ int main()
 		if(std::filesystem::exists("Personal")) {std::cout << "\n\"Personal\" folder already exists.\n"; return 0;}
 		
 		//Generates 512 keys. From rolling-code.cpp.
-		{	//Creates seed file if missing.
-			if(!std::filesystem::exists("Personal/private/rolling-seed"))
-			{	//Gets path.
-				std::cout << "\nJust once, drop/enter any file, preferably one with many random bytes:\n";
-				std::string path; std::getline(std::cin, path); if(path[0] == '\'') {path.erase(0, 1); path.pop_back(); path.pop_back();}
-				if(!std::filesystem::exists(path)) {std::cout << "\nNo path " << path << "\n"; return 1;}
-				
-				//Copies file.
-				std::filesystem::create_directories("Personal/private");
-				std::filesystem::copy_file(path, "Personal/private/rolling-seed");
-			}
+		{	//Gets path.
+			std::cout << "\nJust once, drop/enter any file, preferably one with many random bytes:\n";
+			std::string path; std::getline(std::cin, path); if(path[0] == '\'') {path.erase(0, 1); path.pop_back(); path.pop_back();}
+			if(!std::filesystem::exists(path)) {std::cout << "\nNo path " << path << "\n"; return 1;}
+			std::filesystem::create_directories("Personal/private");
 			
 			//Loads seed.
-			in_stream.open("Personal/private/rolling-seed"); if(!in_stream) {std::cout << "\nCan't open file for reading. (Loads seed).\n"; return 1;}
+			in_stream.open(path); if(!in_stream) {std::cout << "\nCan't open file for reading. (Loads seed).\n"; return 1;}
 			std::string seed = ""; for(; in_stream.get(file_byte);) {seed.push_back(file_byte);}
 			in_stream.close();
 			
