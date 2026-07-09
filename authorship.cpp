@@ -24,7 +24,8 @@ int main()
 	
 	std::string o; std::getline(std::cin, o); if((o != "1") && (o != "2") && (o != "3")) {std::cout << "\nBad option.\n"; return 0;}
 	
-	//_______________________________________________________Create___________________________________________________//
+	//Create.
+	//WZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMW
 	if(o == "1")
 	{	//Exits if files already exists.
 		if(std::filesystem::exists("Personal")) {std::cout << "\n\"Personal\" folder already exists.\n"; return 0;}
@@ -81,7 +82,8 @@ int main()
 		std::cout << "\nYour \"Personal\" folder is ready. Publish your number.\n";
 	}
 	
-	//_______________________________________________________Modify___________________________________________________//
+	//Modify.
+	//WZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMW
 	if(o == "2")
 	{	//Gets path.
 		std::cout << "\nDrop/enter Personal folder:\n";
@@ -237,7 +239,8 @@ int main()
 		          << "\nPublish the \"public\" file so they can update your number.\n";
 	}
 	
-	//_______________________________________________________Verify___________________________________________________//
+	//Verify.
+	//WZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMWZMW
 	if(o == "3")
 	{	//Gets path.
 		std::cout << "\nDrop/enter their disposable public file:\n";
