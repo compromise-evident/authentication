@@ -19,9 +19,7 @@ int main()
 	std::cout << "\n(1) Create   Your number which others save."
 	          << "\n(2) Modify   Creates a disposable public file with which others verify."
 	          << "\n(3) Verify   Their new public file modifies their number file which you saved."
-	
 	          << "\n\nOption: ";
-	
 	std::string o; std::getline(std::cin, o); if((o != "1") && (o != "2") && (o != "3")) {std::cout << "\nBad option.\n"; return 0;}
 	
 	//Create.
