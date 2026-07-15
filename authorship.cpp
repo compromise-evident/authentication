@@ -1,4 +1,6 @@
-/*Version 10.0.0                                                                Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+/*Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+
+Version 10.0.0
 Get a secure number only you can modify, which anyone can
 keep verifying, and you can insert personal messages (data
 authentication independent of encryption type & symmetry).*/
