@@ -47,7 +47,7 @@ yields a very different hash, thanks to the
 avalanche effect of how a modern hash is generated.
 Considering modern scams and how difficult it's
 becoming to detect impersonation,
-your Authorship number is a simple and accessible
+your authentication number is a simple and accessible
 door to authentication you can later jump from
 to other such systems that have vital features.
 
@@ -56,7 +56,7 @@ to other such systems that have vital features.
 But you can modify or append to the input file,
 until its hash IS evenly bit-distributed.
 
-https://github.com/compromise-evident/authorship/blob/main/docs/the_public_file_is_6_lines_of_text
+https://github.com/compromise-evident/authentication/blob/main/docs/the_public_file_is_6_lines_of_text
 
 https://github.com/compromise-evident/what-not/blob/main/see_bits_and_bit_occurrence_of_a_hash.cpp
 
@@ -104,42 +104,42 @@ A relationship anyone can verify.
     private string of characters--matching what the
     door expects to see; The door is aware of a secret
     and must never expose it. But if instead the door
-    contained your Authorship number, that ever-changing number
+    contained your authentication number, that ever-changing number
     can be displayed on the door and even made public.
     EVERYTHING you gave the door, and EVERYTHING the
     door contains, can be safely made public raw.)
 *   **Compromise-evident device**
     (just as tamper-evident devices prove they've
-    been tampered with, Authorship proves its user
+    been tampered with, this tool proves its user
     has been compromised; Your adversary's goal is
     to take your life and continue modifying
-    your Authorship number--fooling us into thinking you're
+    your authentication number--fooling us into thinking you're
     still there. But if your personal folder
     was protected, no one can modify on your behalf.
     This is how we'll know not to
     trust words under your name
     unless we can verify your
-    number modification. In fact, compromise-evident is my tag because Authorship is my centerpiece and my masterpiece.)
+    number modification. In fact, compromise-evident is my tag because this tool is my centerpiece and my masterpiece.)
 *   **Canary update authentication**
 *   **Group authorization**
-    (Authorship numbers can be assembled using ciphertext from multiple users.)
+    (authentication numbers can be assembled using ciphertext from multiple users.)
 *   **Animal theft management**
-    (animal biometric data can be assigned to Authorship numbers in a ledger; If you can't modify the
+    (animal biometric data can be assigned to authentication numbers in a ledger; If you can't modify the
     number associated with your animal, it's not your animal. Authority registrars should be able to
     easily identify animals such as by imaging a cow's wrinkly nose.)
 *   **Voter fraud prevention**
     (you verify voters whom only registrars identify.)
 *   **Ownership proof**
-    (assign item to Authorship number, modify it with their message to prove ownership.)
+    (assign item to authentication number, modify it with their message to prove ownership.)
 *   **Cryptographer's acknowledgement**
-    (you may need to verify that your new Authorship number
+    (you may need to verify that your new authentication number
     is available to the public or verifying party--as you can be censored in some
     extreme circumstances. Here, the verifying party may arrange to modify their
     number in response and you can rest assured that your authentication
     event has been acknowledged.)
 *   **Skipping through verification with outdated numbers**
     (here, the proving
-    party had published multiple Authorship numbers beforehand. Their main number had changed
+    party had published multiple authentication numbers beforehand. Their main number had changed
     so many times, public files older than a year for example, have been discarded.
     Now, those who have not verified since the number publishing, wish to know that
     each and every modification to this date is what the proving party intended.
@@ -149,7 +149,7 @@ A relationship anyone can verify.
     to periodic verification as if they ran through the entire chain.)
 *   **Disposable sessions without breaking trust**
     (let's say some service had
-    published a single Authorship number beforehand, and serves one million users on their
+    published a single authentication number beforehand, and serves one million users on their
     network years later. Each user requested in simultaneity and demanded
     authentication for each and every byte. Here, the service's number is not
     modified per user since that would require all users to catch up on verification
@@ -183,5 +183,5 @@ A relationship anyone can verify.
 Julian Assange and Edward Snowden used cryptographic evidence
 systems generally too complex and inaccessible, which led many to uncertainty
 in a time of great public distrust for government.
-This inspired me to search for, discover (Dec 2019), and build Authorship--logical
+This inspired me to search for, discover (Dec 2019), and build this tool--logical
 authentication anyone can understand in 15 seconds.
