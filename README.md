@@ -160,7 +160,16 @@ A relationship anyone can verify.
     new main number awaits future visitors who were forced to verify only once so far.
     Those without access to the public file for this main event may ask the service
     to modify a slower number--as done in the previous point.)
-*   **And cryptocurrency:**
+
+<br>
+
+### cryptocurrency
+
+Thanks to "publicly verifiable yet authorized-only", you can create a truly
+instant cryptocurrency. It might be a bit manual, and you won't have a
+blockchain that lets 3 people verify instead of everyone verifying, but you'll
+have a system you can understand and control completely. This lets you automate
+comfortably over time.
 
 <p align="center">
   <img src="docs/cryptocurrency.png">
