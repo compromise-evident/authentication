@@ -163,7 +163,7 @@ A relationship anyone can verify.
 
 <br>
 
-### cryptocurrency
+### Cryptocurrency
 
 Thanks to "publicly verifiable yet authorized-only", you can create a truly
 instant cryptocurrency. It might be a bit manual, and you won't have a
